@@ -1,0 +1,805 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0B0E13;
+}
+
+/* navbar */
+span.navbar-toggler-icon {
+  color: white;
+}
+
+nav {
+  background-color: #0B0E13;
+
+}
+
+.navbar a {
+  color: #CBFE1C;
+}
+
+.navbar-nav .nav-item a {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: #CBFE1C;
+
+}
+
+.navbar-nav .nav-link:hover {
+  color: #CBFE1C;
+
+}
+
+form {
+  color: white;
+}
+
+form .btn-outline-success {
+  background-color: #CBFE1C;
+  color: #0B0E13;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  border: none;
+
+}
+
+/* hero */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/hero/imgi_77_hero-bg-H6PoyNYD\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.hero-img {
+  width: 45%;
+  box-shadow: 3px;
+  border-radius: 16px;
+  text-align: center;
+
+}
+
+.hero-img img {
+  border-radius: 16px;
+  border: 5px solid #97B517;
+}
+
+.hero-content h1,
+p {
+  font-family: "Days One", sans-serif;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 75px;
+  color: #F1F1F1;
+  font-weight: 700;
+}
+
+.hero-content h1 span {
+  color: #cbfe1c;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #D1D5DC;
+}
+
+button {
+  border: none;
+  line-height: 24px;
+  color: #0b0e13;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+button.now {
+  background-color: #CBFE1C;
+}
+
+button.now:hover {
+  background-color: #A5CB16;
+}
+
+button.watch {
+  background-color: transparent;
+  line-height: 24px;
+  color: #0b0e13;
+  font-weight: 700;
+  border: 2px solid #CBFE1C;
+  color: #CBFE1C;
+
+}
+
+button.watch:hover {
+  background-color: #CBFE1C;
+}
+
+.cup {
+  background-color: #0B0E13;
+  border: 1px solid #353E50;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.cup-i {
+  color: #CBFE1C;
+}
+
+.cup-content p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #99A1AF;
+}
+
+.cup-content span {
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  font-weight: 700;
+}
+
+/* our games  */
+main {
+
+  background-color: #0B0E13;
+}
+
+.our-games h2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #CBFE1C;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.our-games h2::before {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-right: 20px;
+  background: linear-gradient(to right, #ccff00);
+  box-shadow: 0 3px 8px #ccff00;
+}
+
+.our-games h2::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-left: 20px;
+  background: linear-gradient(to left, #ccff00);
+  box-shadow: 0 3px 8px #ccff00;
+}
+
+.our-games p {
+  font-family: "Days One", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+button.carousel-control-prev {
+  top: 130%;
+  position: static;
+  left: 50%;
+}
+
+.carousel-img:hover .carousel-content1 {
+  top: 10px;
+  left: 10px;
+  border: 3px solid #BBD026;
+  color: white;
+}
+
+.carousel-img:hover .carousel-content2 {
+  top: 10px;
+  left: 50%;
+  border: 1px solid #BBD026;
+  color: white;
+}
+
+.carousel-img:hover .carousel-content3 {
+  bottom: 20px;
+  left: 20px;
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.carousel-content1 span {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+
+
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+}
+
+button.view {
+  background-color: transparent;
+  border: 3px solid #BBD026;
+  color: #BBD026;
+}
+
+.fa-arrow-right,
+.fa-arrow-left {
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+
+
+}
+
+/* what we do */
+.what h2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #CBFE1C;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.what h2::before {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-right: 20px;
+  background: linear-gradient(to right, #ccff00);
+  box-shadow: 0 3px 8px #ccff00;
+}
+
+.what h2::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-left: 20px;
+  background: linear-gradient(to left, #ccff00);
+  box-shadow: 0 3px 8px #ccff00;
+}
+
+.what p {
+  font-family: "Days One", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+.what p span {
+  color: #CBFE1C;
+}
+
+.what .all {
+  padding-left: 10px;
+}
+
+.what .part {
+  border: 1px solid gray;
+  background-color: transparent;
+  border-radius: 5px;
+  align-items: center;
+
+}
+
+.what .part:hover {
+  border: 1px solid #CBFE1C;
+}
+
+.what .fa-square {
+  background-color: #1E2939;
+}
+
+.what::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 3px;
+  margin: 20px auto;
+  background: linear-gradient(transparent, #ccff00);
+  box-shadow: 0 0px 10px #ccff00;
+}
+
+.part {
+  position: relative; 
+  overflow: hidden; 
+  transition: all 0.3s ease; 
+}
+
+/* المثلث الأول (فوق على الشمال) */
+.part::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #CBFE1C; 
+  border-right: 20px solid transparent; 
+  transform: translate(-100%, -100%); 
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+/* المثلث التاني (تحت على اليمين) */
+.part::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid #CBFE1C;
+  border-left: 20px solid transparent;
+  transform: translate(100%, 100%); 
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+
+.part:hover::before {
+  transform: translate(0, 0); 
+}
+
+.part:hover::after {
+  transform: translate(0, 0); 
+}
+
+/* images */
+
+
+.img-row {
+  gap: 10px;
+  padding: 10px;
+  animation: moving 25s ease-out infinite;
+}
+
+.Img {
+  object-fit: contain;
+  flex-shrink: 0;
+  padding: 5px;
+
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-50%));
+  }
+
+
+}
+
+/* team */
+.team h2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #CBFE1C;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.team h2::before {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-right: 20px;
+  background: linear-gradient(to right, #ccff00);
+  box-shadow: 0 3px 8px #ccff00;
+}
+
+.team h2::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-left: 20px;
+  background: linear-gradient(to left, #ccff00);
+  box-shadow: 0 3px 8px #ccff00;
+}
+
+.team p {
+  font-family: "Days One", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+.team .text-style {
+  font-size: 20px;
+  line-height: 28px;
+  color: #99a1af;
+  font-weight: 400;
+}
+
+.team1 .inner {
+  text-align: left;
+  padding: 10px;
+}
+
+.team1 .inner h3 {
+  font-family: "Days One", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: white;
+
+}
+
+.team1 .inner p.yellow-style {
+  color: #CBFE1C;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.team1 .inner p {
+  color: #99a1af;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.team .inner span {
+  position: absolute;
+  transform: rotate(90deg);
+  color: #CBFE1C;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+
+}
+
+.team1 .inner span.title {
+  top: 5px;
+  right: -90px;
+}
+
+.team1 .inner span.title2 {
+  top: 5px;
+  right: -120px;
+}
+
+.team1 .inner span.title1,
+.team1 .inner span.title3 {
+  top: 5px;
+  right: -40px;
+}
+
+.team1 .inner span.title4 {
+  top: 5px;
+  right: -140px;
+}
+
+
+/* contact */
+.contact {
+  background-color: #0F1624;
+}
+
+.contact h2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #CBFE1C;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.contact h2::before {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-right: 20px;
+  background: linear-gradient(to right, #ccff00);
+  box-shadow: 0 3px 8px #ccff00;
+}
+
+.contact h2::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  margin-left: 20px;
+  background: linear-gradient(to left, #ccff00);
+  box-shadow: 0 3px 8px #ccff00;
+}
+
+.contact p {
+  font-family: "Days One", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.contact p.text-style {
+  font-size: 20px;
+  line-height: 28px;
+  color: #99a1af;
+  font-weight: 400;
+}
+
+.info {
+  background-color: #1E2939;
+  margin-inline-end: 3px;
+}
+
+.info .stack {
+  width: 5%;
+}
+
+.info .stack-contact {
+  width: 45%;
+  vertical-align: middle;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 10px;
+}
+
+.info h3 {
+  font-family: "Days One", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: white;
+}
+
+.info p,
+.info1 .community p {
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #99a1af;
+}
+
+.info1 {
+  background-color: #26E070;
+  align-items: flex-start;
+
+}
+
+.info1 .community h3,
+.Form h3 {
+  font-family: "Days One", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.Form {
+  text-align: left;
+  background-color: #1E2939;
+
+  align-items: flex-start;
+
+}
+
+.Form textarea {
+
+  resize: none;
+}
+
+.Form button {
+  margin: auto;
+  text-align: center;
+  align-self: center;
+  background-color: #CBFE1C;
+  transition: all .5s;
+}
+
+.Form label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #d1d5dc;
+  font-weight: 700;
+}
+
+.Form input,
+.Form select,
+.Form textarea {
+  background-color: #364153;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9097A0;
+  border: none;
+}
+
+.Form .form-check-input {
+  background-color: white;
+}
+
+.Form .form-check-label {
+  color: #9097A0;
+}
+
+.Form button:hover {
+
+  background-color: #A8D321;
+}
+
+.Form .available span,
+.Form .responses span {
+  color: #CBFE1C;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+
+}
+
+.Form .available p,
+.Form .responses p {
+  color: #9097A0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* footer */
+footer a,
+footer p {
+  text-decoration: none;
+  color: #9097A0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+footer .social-media {
+  color: #9097A0;
+}
+
+footer .social-media .fa-solid:hover,
+footer .social-media .fa-brands:hover {
+  color: #CBFE1C;
+}
+
+footer a.logo {
+  color: #C5F61B;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+footer h4 {
+  font-family: "Days One", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+footer hr {
+
+  width: 2px;
+  height: 2px;
+}
+
+footer .copy-info {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #99a1af;
+}
+
+footer .policies {
+  justify-content: space-evenly;
+  align-self: center;
+  margin: auto;
+  gap: 10px;
+}
+
+
+
+@media (max-width:576px) {
+
+  .hero-content {
+    
+    text-align: center;
+    
+   
+  }
+  .hero-content .now ,
+   .hero-content .watch
+  {
+    width: 100%;
+    margin-left: 0;
+  }
+  .hero-img {
+    width: 90%;
+  }
+
+  .hero-img .cup {
+    transform: translate(-30%);
+  }
+
+  .team1 .inner span.title {
+    top: 5px;
+    right: -100%;
+  }
+
+  .team1 .inner span.title2 {
+    top: 5px;
+    right: -150%;
+  }
+
+  .team1 .inner span.title1,
+  .team1 .inner span.title3 {
+    top: 5px;
+    right: -40%;
+  }
+
+  .team1 .inner span.title4 {
+    top: 5px;
+    right: -140%;
+  }
+   
+}
+@media (min-width:577px) and (max-width:768px) {
+
+  
+  .hero-content .now ,
+   .hero-content .watch
+  {
+    width: 50%;
+    margin-left: 0;
+  }
+  .hero-img {
+    width: 100%;
+  }
+    .team1 .inner span.title {
+    top: 5px;
+    right: -100px;
+  }
+
+  .team1 .inner span.title2 {
+    top: 5px;
+    right: -150px;
+  }
+
+  .team1 .inner span.title1,
+  .team1 .inner span.title3 {
+    top: 5px;
+    right: -40px;
+  }
+
+  .team1 .inner span.title4 {
+    top: 5px;
+    right: -140px;
+  }
+
+}
